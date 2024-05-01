@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query Practice</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./mediaquery.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-     z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+</head>
+<body>
+    
+    <nav>
+        <div class="container">
+            <div class="menu">
+                <div class="logo">
+                    <i class="fa-solid fa-school"></i><a href="#">SmartStudy</a>
+                </div>
+
+                <ul class="navbar">
+                    <li class="active"><a href="#home">Home</a></li>
+                    <li><a href="#course">Course</a></li>
+                    <li><a href="#teacher">Teacher</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                 
+                <div class="icons">
+                    <i id="menubar" class="fa-solid fa-bars"></i>
+                    <i class="fa-solid fa-magnifying-glass" id="search_bar"></i>
+                    <i class="fa-solid fa-heart"></i>
+                    <i class="fa-solid fa-user"></i>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+<!-- search section -->
+
+<form action="" id="search_from">
+
+    <input type="text" placeholder="Search Here......" id="search_box">
+    <label for="search_box" class="fas fa-search"></label>
+    <i class="fa-solid fa-xmark" id="close"></i>
+
+</form>
+
+<!-- home section -->
+
+<div class="home" id="home">
+
+    <div class="swiper mySwiper home_main">
+        <div class="swiper-wrapper">
+
+
+            <div class="swiper-slide" id="home_slide">
+                <div class="home_content">
+                    <span>Our Special Dishes</span>
+                    <h1>Chicken Tandury</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, asperiores debitis repudiandae eligendi maiores iste.</p>
+                    <div id="btn">
+                        <a href="#">Order Now</a>
+                    </div>
+                </div>
+                <div class="home_image">
+                    <img src="images/chic.png" alt="Not Found">
+                </div>
+            </div>
+
+            <div class="swiper-slide" id="home_slide">
+                <div class="home_content">
+                    <span>Our Special Dishes</span>
+                    <h1>Chicken Tandury</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, asperiores debitis repudiandae eligendi maiores iste.</p>
+                    <div id="btn">
+                        <a href="#">Order Now</a>
+                    </div>
+                </div>
+                <div class="home_image">
+                    <img src="images/pizza 1.png" alt="Not Found">
+                </div>
+            </div>
+
+            <div class="swiper-slide" id="home_slide">
+                <div class="home_content">
+                    <span>Our Special Dishes</span>
+                    <h1>Chicken Tandury</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, asperiores debitis repudiandae eligendi maiores iste.</p>
+                    <div id="btn">
+                        <a href="#">Order Now</a>
+                    </div>
+                </div>
+                <div class="home_image">
+                    <img src="images/pizza2.png" alt="Not Found">
+                </div>
+            </div>
+
+
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+</div>
+
+<!-- swiper js -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+
+<script src="./script.js"></script>
+</body>
+</html>
